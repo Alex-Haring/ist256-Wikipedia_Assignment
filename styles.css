@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+.sidebar {
+    float: right;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+.sidebar img {
+    width: 100%;
+    height: auto;
+}
+.sidebar table {
+    width: 100%;
+}
+.sidebar table td {
+    padding: 5px 0;
+}
+.sidebar table td:first-child {
+    font-weight: bold;
+    text-align: left;
+}
